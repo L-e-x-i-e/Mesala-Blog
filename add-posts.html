@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MESELA Blog Website</title>
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <!--CSS Stylesheets-->
+    <link href="./CSS Files/reset.css" rel="reset stylesheet">
+    <link href="./CSS Files/styles.css" rel="main stylesheet">
+    <link href="./CSS Files/responsive.css" rel="responsive stylesheet">
+    <!--Font Awesome Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+<body>
+    <nav>
+        <div class="nav_container container">
+            <!--Logo-->
+            <div class="logo"><a href="./news.html"><img src="./Assets/logo.svg"></a></div> 
+            <div class="nav-profile">
+                <div class="avatar">
+                    <img src="./Assets/Avatar.png">
+                </div>
+                <ul>
+                    <li><a href="add-posts.html">Dashboard</a></li>
+                    <li><a href="news.html">Logout</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+
+    <section class="dashboard">
+        <div class="container dashboard_container">
+            <button id="show_sidebar-btn" class="sidebar_toggle"><i class="fa-solid fa-chevron-right"></i></button>
+            <button id="hide_sidebar-btn" class="sidebar_toggle"><i class="fa-solid fa-chevron-left"></i></button>
+            <aside>
+                <ul>
+                    <li>
+                        <a href="add-posts.html"  class="active">
+                            <i class="fa-solid fa-pen"></i>
+                            <span>Add Post</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="manage-posts.html">
+                            <i class="fa-solid fa-file"></i>
+                            <span>Manage Posts</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="add-categories.html">
+                            <i class="fa-regular fa-folder-open"></i>
+                            <span>Add Category</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="manage-categories.html">
+                            <i class="fa-solid fa-list"></i>
+                            <span>Manage Categories</span>
+                        </a>
+                    </li>
+                </ul>
+            </aside>
+            <main>
+                <h6>Add Post</h6>
+                <form class="forms dashboard_form" action="/submit_form" method="post" enctype="multipart/form-data">
+                    <!--Title-->
+                    <div class="input category-title">
+                        <label for="title">Title</label>
+                        <input type="text" id="title" name="title" placeholder="" class="input-style" required>
+                    </div>
+                    <!--Select Category-->
+                    <div class="input category-title">
+                        <label for="title">Category</label>
+                        <select>
+                            <option value="1">Politics</option>
+                            <option value="1">Business</option>
+                            <option value="1">Music</option>
+                            <option value="1">Sports</option>
+                        </select>
+                    </div>
+                    <!--Body-->
+                    <div class="input category-title">
+                        <label for="title">Body</label>
+                        <textarea rows="5"></textarea>
+                    </div>
+                    <!--Featured-->
+                    <div class="input category-title form_control">
+                        <input type="checkbox" id="is_featured" checked>
+                        <label for="is_featured">Featured</label>
+                    </div>
+                    <!--Thumbnail-->
+                    <div class="input file-upload">
+                        <label for="thumbnail">Add Thumbnail</label>
+                        <input type="file" id="thumbnail" placeholder="" class="input-style" required>
+                    </div>
+                
+                    <!--Submit-->
+                    <div>
+                        <input type="submit" value="Add Post" class="input submit-btn">
+                    </div>
+                </form>
+            </main>
+        </div>
+    </section>
+
+
+
+    <script src="./JavaScript/main2.js"></script>
+</body>
+</html>

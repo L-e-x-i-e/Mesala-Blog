@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MESELA Blog Website</title>
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!--CSS Stylesheets-->
+    <link href="./CSS Files/reset.css" rel="reset stylesheet">
+    <link href="./CSS Files/styles.css" rel="main stylesheet">
+    <link href="./CSS Files/responsive.css" rel="responsive stylesheet">
+    <!--Font Awesome Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+
+<body>
+    <nav>
+        <!--Bottom Navigation-->
+        <div class="nav_container container">
+            <!--Logo-->
+            <div class="logo"><a href="./news.html"><img src="./Assets/logo.svg"></a></div> 
+            <!--Nav Menu-->         
+            <ul class="nav-items">
+                <li><a href="./news.html">News</a></li>
+                <li><a href="./politics.html">Politics</a></li>
+                <li><a href="./politics.html">Sports</a></li>
+                <li><a href="./politics.html">Business</a></li>
+                <li><a href="./politics.html">Music</a></li>
+                <li>
+                    <div class="nav_buttons">
+                        <button><a href="./login.html">Sign In</a></button>
+                    </div>
+                </li>
+                <li>
+                    <div class="nav_buttons">
+                        <button><a href="./subcribe.html">Subscribe</a></button>
+                    </div>
+                </li>
+            </ul>
+            <!--Nav Buttons-->
+            <div class="nav_buttons">
+                <button><a href="./login.html"><i class="fa-regular fa-user"></i></a></button>
+                <button class="pry-btn"><a href="./subcribe.html">Subscribe</a></button>
+            </div>
+            <!--Mobile Nav Controls-->
+            <button id="open_nav-btn" class="mobile_nav-controls"><i class="fa-solid fa-bars"></i></button>
+            <button id="close_nav-btn" class="mobile_nav-controls"><i class="fa-solid fa-x"></i></button> 
+        </div>
+    </nav>
+    <!--==================End of Nav=========================-->
+
+    <!--Posts Section-->
+    <section class="single_post">
+        <div class="container single_post-container">
+            <div class="smaller-container post-div">
+                <div class="single_post-header">
+                    <span>Mike Flanning</span>
+                    <h5>Trump asks Supreme Court to undo Colorado ballot ban</h5>
+                    <div>
+                        <small>10th January 2024,</small>
+                        <small>8:40 AM</small>
+                    </div>
+                </div>
+                <div class="single_post-image">
+                    <img src="./Assets/trump.jpg">
+                </div>
+                <div class="single_post-text">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur. Feugiat at risus consectetur mauris elit neque a dignissim mauris. 
+                        Imperdiet arcu eget diam nulla quam amet tincidunt. Viverra accumsan massa volutpat aliquam mi. 
+                        Amet cras urna mauris malesuada dictum venenatis. Gravida ullamcorper laoreet massa at auctor. 
+                        Cursus convallis duis varius eros nunc molestie id aliquam gravida. Semper neque ac cursus vulputate dictum nibh. 
+                        At faucibus commodo nisi vitae feugiat mauris. Quam feugiat sit integer ac turpis. Placerat elementum sagittis ipsum 
+                        diam volutpat accumsan. Eget accumsan fermentum eu duis sit elit elementum vitae leo. Ut suspendisse amet tempus 
+                        auctor ac condimentum blandit. Nibh sit elementum porttitor dui quis. Senectus integer pharetra mauris sapien eu 
+                        faucibus tempus vel feugiat. Laoreet pulvinar suspendisse facilisi sed tincidunt. Massa eu donec potenti nam a 
+                        Quisque cras leo neque bibendum cras sem rhoncus. Quam tincidunt auctor tortor semper habitant malesuada id aliquam. 
+                        Est neque amet vel quis facilisis posuere tellus adipiscing. Ornare egestas arcu vel aliquam convallis. 
+                        Enim tempor vestibulum risus mauris. Congue feugiat turpis consequat fames nunc vitae nisl potenti. 
+                        Orci enim in semper pellentesque at id enim in risus.
+                    </p>
+                    <p> 
+                        Suspendisse neque fermentum volutpat pellentesque eu interdum. Tincidunt faucibus sed porttitor sed sed mattis id diam. 
+                        Volutpat molestie maecenas varius donec. At nec odio laoreet sollicitudin enim proin tellus. 
+                        Quisque cras leo neque bibendum cras sem rhoncus. Quam tincidunt auctor tortor semper habitant malesuada id aliquam. 
+                        Est neque amet vel quis facilisis posuere tellus adipiscing. Ornare egestas arcu vel aliquam convallis. 
+                        Enim tempor vestibulum risus mauris. Congue feugiat turpis consequat fames nunc vitae nisl potenti. 
+                        Orci enim in semper pellentesque at id enim in risus.
+                    </p>
+                </div>
+            </div>
+
+            <div class="center__display">
+                <div class="top">
+                    <div class="likes-and-share">
+                        <div class="likes__count">
+                            <i class="far fa-heart"></i>
+                            <small class="count">0</small>
+                        </div>
+
+                        <div class="single_post-socials">
+                            <p>Share</p>
+                            <ul>
+                                <li>
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-brands fa-whatsapp"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-brands fa-x-twitter"></i>
+                                </li>
+                            </ul>
+                        </div>  
+                    </div>
+
+
+                    <div class="cmmt__container">
+                        <form class="comments-form">
+                            <div class="heart__icon center__display">
+                                <i class="far fa-heart"></i>
+                            </div>
+                            <div class="form__info center__display">
+                                <input type="text" name="user" id="user" placeholder="Your user name">
+                                <input type="text" name="comment" id="comment" placeholder="Add a short comment here">
+                            </div>
+                            <button type="submit" class="submit__btn">
+                                Submit
+                            </button>
+                        </form>
+                    </div>
+                </div>
+        
+                <div class="comments__container center__display">
+                    <div class="comment__card">
+                        <div class="pic center__display">
+                            A
+                        </div>
+                        <div class="comment__info">
+                            <small class="nickname">
+                                UserNameHere
+                            </small>
+                            <p class="comment">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, in magnam! Libero?
+                            </p>
+                            <div class="comment__bottom">
+                                <div class="heart__icon--comment">
+                                    <i class="far fa-heart"></i>
+                                </div>
+                                <button>
+                                    Reply
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!--Footer-->
+    <footer class="footer">
+        <div class="container footer_div">
+            <div class="footer_logo logo">
+                <a href="news.html"><img src="./Assets/logo.svg"></a>   
+            </div>
+            <div class="footer_sections">
+                <h6>Useful Links</h6>
+                <p><a href="">Contact & FAQs</a></p>
+                <p><a href="">Advertise with us</a></p>
+                <p><a href="">Submit a story</a></p>
+            </div>
+            <div class="footer_sections">
+                <h6>Categories</h6>
+                <p><a href="">Politics</a></p>
+                <p><a href="">Business</a></p>
+                <p><a href="">Music</a></p>
+                <p><a href="">Sports</a></p>
+            </div>
+            <div class="footer_sections">
+                <h6>Support</h6>
+                <p><a href="">Online Support</a></p>
+                <p><a href="">Call Numbers</a></p>
+                <p><a href="">Emails</a></p>
+                <p><a href="">Socials</a></p>
+                <p><a href="">Location</a></p>
+            </div>
+        </div>
+    </footer>
+    <script src="./JavaScript/main.js"></script>
+    <script src="./JavaScript/main3.js"></script>
+</body>
+</html>

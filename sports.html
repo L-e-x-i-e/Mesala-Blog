@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MESELA Blog Website</title>
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!--CSS Stylesheets-->
+    <link href="./CSS Files/reset.css" rel="reset stylesheet">
+    <link href="./CSS Files/styles.css" rel="main stylesheet">
+    <link href="./CSS Files/responsive.css" rel="responsive stylesheet">
+    <!--Font Awesome Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+
+<body>
+    <nav>
+        <!--Bottom Navigation-->
+        <div class="nav_container container">
+            <!--Logo-->
+            <div class="logo"><a href="./news.html"><img src="./Assets/logo.svg"></a></div> 
+            <!--Nav Menu-->         
+            <ul class="nav-items">
+                <li><a href="./news.html">News</a></li>
+                <li><a href="./politics.html">Politics</a></li>
+                <li><a href="./sports.html">Sports</a></li>
+                <li><a href="./business.html">Business</a></li>
+                <li><a href="./music.html">Music</a></li>
+                <li class="nav_buttons-mobile">
+                    <div>
+                        <button><a href="./add-posts.html">Sign In</a></button>
+                    </div>
+                </li>
+                <li class="nav_buttons-mobile">
+                    <div >
+                        <button><a href="./subcribe.html">Subscribe</a></button>
+                    </div>
+                </li>
+            </ul>
+            <!--Nav Buttons-->
+            <div class="nav_buttons">
+                <button><a href="./add-posts.html"><i class="fa-regular fa-user"></i></a></button>
+                <button class="pry-btn"><a href="./subcribe.html">Subscribe</a></button>
+            </div>
+            <!--Mobile Nav Controls-->
+            <button id="open_nav-btn" class="mobile_nav-controls"><i class="fa-solid fa-bars"></i></button>
+            <button id="close_nav-btn" class="mobile_nav-controls"><i class="fa-solid fa-x"></i></button> 
+        </div>
+    </nav>
+    <!--==================End of Nav=========================-->
+
+    <section class="search_bar">
+        <form class="container search_bar-container" action="post">
+            <div>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="search" name="" placeholder="Search">
+            </div>
+            <button type="submit" class="pry-btn">Go</button>
+        </form>
+    </section>
+
+        <!--==================End of Search=========================-->
+
+
+
+    <!--Posts Section-->
+    <section class="posts">
+        <div class="container">
+            <div class="posts_header">
+                <h5>Sports</h5>
+            </div>
+            <div class="posts_container">
+                <article class="post">
+                    <div class="post_thumbnail">
+                        <a href="post.html"><img src="./Assets/trump.jpg"></a>  
+                    </div>
+                    <div class="post_info">
+                        <a href="" class="category_button">Politics</a>
+                        <h6 class="post_title">
+                            <a href="post.html">Trump asks Supreme Court to undo Colorado ballot ban</a>
+                        </h6>
+                        <div class="post_author-info">
+                            <small>John Mills</small>
+                            <small>June 13, 2024  10:14am </small>
+                        </div>
+                    </div>
+                </article>
+                <article class="post">
+                    <div class="post_thumbnail">
+                        <a href="post.html"><img src="./Assets/1703689099-best-2023-side-hustles-extra-money-1223-g1786405813.webp"></a> 
+                    </div>
+                    <div class="post_info">
+                        <a href="" class="category_button">Business</a>
+                        <h6 class="post_title">
+                            <a href="post.html">The Most Creative Side Hustles We Learnt About in 2023</a>
+                        </h6>
+                        <div class="post_author-info">
+                            <small>John Mills</small>
+                            <small>June 13, 2024  10:14am </small>
+                        </div>
+                    </div>
+                </article>
+                <article class="post">
+                    <div class="post_thumbnail">
+                        <a href="post.html"><img src="./Assets/harden.jpeg"></a>
+                    </div>
+                    <div class="post_info">
+                        <a href="" class="category_button">Sports</a>
+                        <h6 class="post_title">
+                            <a href="post.html">All Systems Go: James Harden is on a mission with the clippers</a>
+                        </h6>
+                        <div class="post_author-info">
+                            <small>John Mills</small>
+                            <small>June 13, 2024  10:14am </small>
+                        </div>
+                    </div>
+                </article>
+                <article class="post">
+                    <div class="post_thumbnail">
+                        <a href="post.html"><img src="./Assets/Boebert1.jpg"></a>    
+                    </div>
+                    <div class="post_info">
+                        <a href="" class="category_button">Music</a>
+                        <h6 class="post_title">
+                            <a href="post.html">Lauren Beobert's first hurdle is her new district: Ballot ban</a>
+                        </h6>
+                        <div class="post_author-info">
+                            <small>John Mills</small>
+                            <small>June 13, 2024  10:14am </small>
+                        </div>
+                    </div>
+                </article>
+                <article class="post">
+                    <div class="post_thumbnail">
+                        <a href="post.html"><img src="./Assets/trump.jpg"></a>  
+                    </div>
+                    <div class="post_info">
+                        <a href="" class="category_button">Politics</a>
+                        <h6 class="post_title">
+                            <a href="post.html">Trump asks Supreme Court to undo Colorado ballot ban</a>
+                        </h6>
+                        <div class="post_author-info">
+                            <small>John Mills</small>
+                            <small>June 13, 2024  10:14am </small>
+                        </div>
+                    </div>
+                </article>
+                <article class="post">
+                    <div class="post_thumbnail">
+                        <a href="post.html"><img src="./Assets/1703689099-best-2023-side-hustles-extra-money-1223-g1786405813.webp"></a> 
+                    </div>
+                    <div class="post_info">
+                        <a href="" class="category_button">Business</a>
+                        <h6 class="post_title">
+                            <a href="post.html">The Most Creative Side Hustles We Learnt About in 2023</a>
+                        </h6>
+                        <div class="post_author-info">
+                            <small>John Mills</small>
+                            <small>June 13, 2024  10:14am </small>
+                        </div>
+                    </div>
+                </article>
+                <article class="post">
+                    <div class="post_thumbnail">
+                        <a href="post.html"><img src="./Assets/harden.jpeg"></a>
+                    </div>
+                    <div class="post_info">
+                        <a href="" class="category_button">Sports</a>
+                        <h6 class="post_title">
+                            <a href="post.html">All Systems Go: James Harden is on a mission with the clippers</a>
+                        </h6>
+                        <div class="post_author-info">
+                            <small>John Mills</small>
+                            <small>June 13, 2024  10:14am </small>
+                        </div>
+                    </div>
+                </article>
+                <article class="post">
+                    <div class="post_thumbnail">
+                        <a href="post.html"><img src="./Assets/Boebert1.jpg"></a>    
+                    </div>
+                    <div class="post_info">
+                        <a href="" class="category_button">Music</a>
+                        <h6 class="post_title">
+                            <a href="post.html">Lauren Beobert's first hurdle is her new district: Ballot ban</a>
+                        </h6>
+                        <div class="post_author-info">
+                            <small>John Mills</small>
+                            <small>June 13, 2024  10:14am </small>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!--Footer-->
+
+    <footer class="footer">
+        <div class="container footer_div">
+            <div class="footer_logo logo">
+                <a href="news.html"><img src="./Assets/logo.svg"></a>   
+            </div>
+            <div class="footer_sections">
+                <h6>Useful Links</h6>
+                <p><a href="">Contact & FAQs</a></p>
+                <p><a href="">Advertise with us</a></p>
+                <p><a href="">Submit a story</a></p>
+            </div>
+            <div class="footer_sections">
+                <h6>Categories</h6>
+                <p><a href="">Politics</a></p>
+                <p><a href="">Business</a></p>
+                <p><a href="">Music</a></p>
+                <p><a href="">Sports</a></p>
+            </div>
+            <div class="footer_sections">
+                <h6>Support</h6>
+                <p><a href="">Online Support</a></p>
+                <p><a href="">Call Numbers</a></p>
+                <p><a href="">Emails</a></p>
+                <p><a href="">Socials</a></p>
+                <p><a href="">Location</a></p>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="./JavaScript/main.js"></script>
+</body>
+</html>
